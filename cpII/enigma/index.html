@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Enigma da Sequência Misteriosa</title>
+</head>
+
+<body>
+    <main>
+
+ 
+    <form>
+        <h1 class="title">Enigma</h1>
+        <div class="box-form">
+            <label for="num1">Primerio termo:</label>
+            <input type="text" id="num1">
+        </div>
+      <div class="box-form">
+            <label for="num2">Segundo termo:</label>
+            <input type="text" id="num2">
+        </div>
+      <div class="box-form">
+            <label for="num3">Terceiro termo:</label>
+            <input type="text" id="num3">
+        </div>
+
+        <button type="button" onclick="decipher()" id="button">Decifrar</button>
+    </form>
+
+    <section class="solv">
+        <h2 >Padrão detectado: <span id="typePgr">Não iniciado</span></h2>
+        <p id="progressao"></p>
+    </section>
+   </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

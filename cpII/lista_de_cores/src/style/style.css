@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main>div {
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.cores {
+    background-color: #ccc;
+    box-shadow: 5px 10px #888888;
+    width: 30vh;
+    padding: 20px;
+}
+
+.title {
+    display: block;
+}
+
+#corInput {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+#listaCores {
+    list-style-type: none;
+}
+
+#listaCores li {
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
