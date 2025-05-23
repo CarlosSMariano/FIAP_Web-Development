@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
+
+#titulo{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#historyContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#historyContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#historyContainer th,
+#historyContainer td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+#historyContainer th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#historyContainer tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
